@@ -132,6 +132,7 @@ input, select, textarea {
 
 		h2.alt {
 			color: #888;
+	
 		}
 
 			h2.alt strong {
@@ -1850,6 +1851,7 @@ input, select, textarea {
 	form textarea {
 		position: relative;
 		-webkit-appearance: none;
+		appearance: none;
 		display: block;
 		border: 0;
 		outline: 0;
@@ -2249,20 +2251,28 @@ input, select, textarea {
 			}
 
 			#main > section.one {
-				background-color: #81918E;
-				background-image: url("../../images/banner.jpg");
+				background-color: #ffffff;
+				background-image: url("../../images/bookshelf.jpg");
+				
+
 			}
 
+	
+
 			#main > section.two {
-				background-color: #f5fafa;
+				background-color: #d9dfdf;
 			}
 
 			#main > section.three {
-				background-color: #ecf1f1;
+				background-color: #f7fafa;
 			}
 
 			#main > section.four {
-				background-color: #e8edec;
+				background-color: #d9dfdf;
+			}
+
+			#main > section.five {
+				background-color: #f7fafa;
 			}
 
 /* Wide */
