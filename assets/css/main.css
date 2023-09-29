@@ -1939,6 +1939,8 @@ input, select, textarea {
 			background: #eee;
 		}
 
+
+
 /* Button */
 
 	input[type="button"],
@@ -2260,21 +2262,24 @@ input, select, textarea {
 	
 
 			#main > section.two {
-				background-color: #d9dfdf;
+				background-color: #f7fafa;
 			}
 
 			#main > section.three {
-				background-color: #f7fafa;
+				background-color: #d9d9d9;
 			}
 
 			#main > section.four {
-				background-color: #d9dfdf;
-			}
-
-			#main > section.five {
 				background-color: #f7fafa;
 			}
 
+			#main > section.five {
+				background-color: #d9dfdf;
+			}
+
+			.author{
+				margin-block: 0px;
+			}
 /* Wide */
 
 	@media screen and (min-width: 961px) and (max-width: 1880px) {
